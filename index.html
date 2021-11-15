@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bubby The Bee</title>
+	<style>
+
+		body{
+			background-color: #002624;
+		}
+
+		hr {
+			color: none;
+		}
+
+		h1 {
+			color: white;
+		}
+
+		h2 {
+			color: white;
+		}
+
+		a {
+			color: inherit;
+			text-decoration: none;
+		}
+
+		.root{
+			background-color: #002624;
+		}
+
+		.aboutsection{
+			padding-top: 20px;
+			height: 500px
+		}
+
+		.howtoplay{
+			padding-top: 20px;
+			background-color: #500B00;
+			height: 500px;
+			text-align: center;
+		}
+
+		.demo{
+			text-align: center;
+			padding-top: 20px;
+
+		}
+
+		.credits {
+			padding-top: 20px;
+			background-color: #500B00;
+
+		}
+
+		.glossary{
+			padding-top: 20px;
+			height: 500px
+		}
+
+		.title{
+			color:white;
+			text-align: center;
+		}
+
+		.about-left{
+			flex: 40% 1;
+		}
+
+		.about-right{
+			flex: 60% 1;
+		}
+
+		.banner{
+			display: flex;
+			flex-direction: row;
+			text-align: center;
+		}
+
+		.game-button{
+			background-color: #FFF;
+			border-color: #FFF;
+		}
+
+		.navbar{
+			background-color: #000000;
+			text-align: right;
+		}
+
+		ul {
+			color: white;
+			list-style-type: none;
+			text-align: center;
+			overflow: hidden;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			display: inline-block;
+			padding: 20px 50px;
+			text-align: center;
+		}
+
+		p{
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div class="root">
+		<div class="navbar">
+			<ul>
+			  <li><a href="#aboutsection">About</a></li>
+			  <li><a href="#howtoplay">How To Play</a></li>
+			  <li><a href="#demo">Demo</a></li>
+			  <li><a href="#credits">Credits</a></li>
+			  <li><a href="#glossary">Glossary</a></li>
+			</ul>
+		</div>
+
+		<div class="aboutsection" id="aboutsection">
+			<h1 class="title">Bubby The Bee</h1>
+			<div class="banner">
+				<div class="about-left">
+					<img src="wasp.png"></img>
+					<h1>Check out our video tutorial below!</h1>
+				</div>
+
+				<div class="about-right">
+					<img src="stars.png" style="width: 50%"></img>
+					<h2>Over 4,000+ reviews on Steam!</h2>
+					<h2>A solid 5.0 star rating!</h2>
+					<button type="button" class="game-button" onclick="window.open('https://play.unity.com/mg/2d/webgl-builds-114099', '_blank')">Play on Unity</button>
+				</div>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="howtoplay" id="howtoplay">
+			<h1 class="title">How To Play</h1>
+			<p>Bubby the bee is a game about collecting and harvesting honey on a 2d map and bringing it back to the bee hive while avoiding hostile enemies.</p>
+		</div>
+
+		<br>
+
+		<div class="demo" id="demo">
+			<h1 class="title">Demo</h1>
+			<h2>Click below to try the game out!</h2>
+			<iframe id='webgl_iframe' frameborder="0" allow="autoplay; fullscreen; vr" allowfullscreen="" allowvr=""
+			    mozallowfullscreen="true" src="https://play.unity3dusercontent.com/webgl/ebb7ef02-d96a-40c8-8003-16451d636f2b?screenshot=false&embedType=embed"  width="810"
+			    height="640" onmousewheel="" webkitallowfullscreen="true">
+    		</iframe>
+		</div>
+
+		<br>
+
+		<div class="credits" id="credits">
+			<h1 class="title">Credits</h1>
+			<h2>A game made by Danny, Austin, Juliette, Alvin, Matt, and Nisha</h2>
+
+			<div class="content">
+				<ul>
+					<li>
+						<h2>Danny</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+
+					<li>
+						<h2>Nishi</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+
+					<li>
+						<h2>Austin</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+				</ul>
+
+				<ul>
+					<li>
+						<h2>Alvin</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+
+					<li>
+						<h2>Matt</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+
+					<li>
+						<h2>Juliette</h2>
+						<img src="wasp.png" style="width: 50%">
+						<h2>Role</h2>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<br>
+
+		<div class="glossary" id="glossary">
+			<h1 class="title">Glossary</h1>
+			<h1>A section for all the pictures/sprites we used</h1>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
